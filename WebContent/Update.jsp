@@ -11,12 +11,14 @@
 <meta charset="ISO-8859-1">
 <title>Update</title>
 </head>
-<body>
-<h1 class="sign_in">Update Employee</h1>
+<body style="text-align:center;">
+<h1 class="sign_in">Update Employee Details</h1>
 
+<br><br>
+<h2>Enter the username to search the employee details</h2>
 <form action="" method="post">
 		<input type="text" name="username" placeholder="Username" /> 
-		<input type="submit" class="login__submit" value="Search" />
+		<input type="submit" value="Search" />
 	</form>
 	<br><br>
 	<%!

@@ -8,7 +8,7 @@
 <meta charset="ISO-8859-1">
 <title>Retrieve</title>
 </head>
-<body>
+<body style="text-align:center;">
 	<%@page import="com.bean.Employee"%>
 	<%@page import="org.springframework.context.ApplicationContext"%>
 	<%@page
@@ -19,7 +19,10 @@
 		EmployeeDAO obj = (EmployeeDAO) factory.getBean("empimpl");
 		empList = obj.getAllEmp();
 	%>
-	<table border="1">
+	<br><br>
+	<h1>All the Employee Details of Publicis Sapient</h1>
+	<br><br>
+	<table border="1" style=" margin-left: auto;margin-right: auto;">
 		<tr>
 			<th>User name</th>
 			<th>Age</th>
